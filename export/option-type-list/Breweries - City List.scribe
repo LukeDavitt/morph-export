@@ -1,0 +1,7 @@
+resource "option-type-list" "Breweries - City List" {
+  name = "Breweries - City List"
+  uuid = "dc594785-503e-4c8c-bdb1-f1121be00bac"
+  initialDataset = "[{\"name\": \"san_diego\", \"value\": \"san_diego\"},{\"name\":\"knox\", \"value\":\"knox\"},{\"name\":\"bend\",\"value\": \"bend\"}]"
+  realTime = true
+  type = "manual"
+}
