@@ -5,7 +5,6 @@ resource "catalog-item-type" "test-import-export" {
   config = {
     config = ""
     context = ""
-    workflowId = 3
     workflowUuid = "ad873cf3-16d8-4bf0-b764-086a629cfa80"
   }
   dateCreated = "2024-05-20T11:02:31.871Z"
