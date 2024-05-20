@@ -7,11 +7,11 @@ resource "task" "operation-test" {
   labels = [ "export" ]
   lastUpdated = "2024-05-20T11:56:26.975Z"
   options = [
-    { optionType = { code = "shell.sudo" }, value = "on" },
     {
       content = { uuid = "64b1b2a5-8bca-485e-9ab8-23825886415b" }
       optionType = { code = "script" }
-    }
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
   ]
   taskType = { code = "script" }
   visibility = "public"
