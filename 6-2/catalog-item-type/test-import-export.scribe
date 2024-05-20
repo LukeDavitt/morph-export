@@ -4,7 +4,7 @@ resource "catalog-item-type" "test-import-export" {
   uuid = "abe1ce16-cc92-44ca-b6a3-9fbac94659de"
   dateCreated = "2024-05-20T11:02:31.871Z"
   labels = [ "export" ]
-  lastUpdated = "2024-05-20T11:02:31.871Z"
+  lastUpdated = "2024-05-20T13:05:41.259Z"
   refType = "OperationalWorkflow"
   visibility = "public"
 }
