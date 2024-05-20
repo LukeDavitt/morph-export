@@ -1,0 +1,11 @@
+{
+    "organization": "morpheus",
+    "type": "scribe",
+    "apiVersion": "0.1",
+    "code": "test-task",
+    "name": "test task",
+    "packageType": "scribe",
+    "packageVersion": "1.2",
+    "description": "testing task",
+    "dependsOn":[]
+  }
