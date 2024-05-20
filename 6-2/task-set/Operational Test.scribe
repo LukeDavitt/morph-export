@@ -1,0 +1,10 @@
+resource "task-set" "Operational Test" {
+  name = "Operational Test"
+  uuid = "ad873cf3-16d8-4bf0-b764-086a629cfa80"
+  dateCreated = "2024-05-20T11:01:14.063Z"
+  labels = [ "export" ]
+  lastUpdated = "2024-05-20T11:56:46.581Z"
+  taskSetTasks = [ { uuid = "7ffe532e-cc3d-498f-bd14-db7915fa1bb0" } ]
+  taskSetType = "operation"
+  visibility = "public"
+}
