@@ -2,6 +2,12 @@ resource "catalog-item-type" "test-import-export" {
   code = "test-import-export"
   name = "AA - Testing Import/Export"
   uuid = "abe1ce16-cc92-44ca-b6a3-9fbac94659de"
+  config = {
+    config = ""
+    context = ""
+    workflowId = 3
+    workflowUuid = "ad873cf3-16d8-4bf0-b764-086a629cfa80"
+  }
   dateCreated = "2024-05-20T11:02:31.871Z"
   labels = [ "export" ]
   lastUpdated = "2024-05-20T13:05:41.259Z"
