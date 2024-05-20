@@ -1,0 +1,15 @@
+resource "catalog-item-type" "workflow-testes" {
+  code = "workflow-testes"
+  name = "testes workflow"
+  uuid = "0187c124-e831-4ec2-9f44-6422208f9c2b"
+  config = {
+    config = ""
+    context = ""
+    workflowUuid = "48a17b10-5e0c-4338-80b8-967b275a3447"
+  }
+  dateCreated = "2024-05-20T20:53:43.609Z"
+  labels = [ "export" ]
+  lastUpdated = "2024-05-20T20:53:43.609Z"
+  refType = "OperationalWorkflow"
+  visibility = "public"
+}
