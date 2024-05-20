@@ -1,0 +1,10 @@
+resource "task-set" "aa-test-workflow-item" {
+  name = "aa-test-workflow-item"
+  uuid = "48a17b10-5e0c-4338-80b8-967b275a3447"
+  dateCreated = "2024-05-20T20:52:48.726Z"
+  labels = [ "export" ]
+  lastUpdated = "2024-05-20T20:52:48.738Z"
+  taskSetTasks = [ { uuid = "971f753e-3021-4b62-9314-57117f8246df" } ]
+  taskSetType = "operation"
+  visibility = "public"
+}
