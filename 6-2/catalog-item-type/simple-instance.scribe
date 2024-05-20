@@ -2,6 +2,68 @@ resource "catalog-item-type" "simple-instance" {
   code = "simple-instance"
   name = "simple instance"
   uuid = "2c937e2e-d5c0-4f51-b8f9-bab970d58f73"
+  config = {
+    name = "$${userInitials}-local-$${cloudCode}-$${type}-$${sequence}"
+    backup = {
+      createBackup = false
+      jobAction = "new"
+      jobRetentionCount = 3
+      providerBackupType = -1
+      veeamManagedServer = ""
+    }
+    cloud = { name = "qa-amazon", id = 4 }
+    config = {
+      availabilityId = null
+      createUser = true
+      instanceProfile = null
+      isEC2 = "false"
+      isVpcSelectable = true
+      kmsKeyId = null
+      noAgent = false
+      poolProviderType = null
+      publicIpType = "subnet"
+      resourcePoolId = "pool-169"
+      securityId = null
+    }
+    copies = 1
+    defaultExpandAdvanced = false
+    group = { name = "ld-amazon", id = "5" }
+    hideLock = true
+    hostName = "$${userInitials}-local-$${cloudCode}-$${type}-$${sequence}"
+    instance = { userGroup = { id = "" } }
+    layout = { code = "ubuntu-amazon-22.04", id = 579 }
+    networkInterfaces = [
+      {
+        network = {
+          hasPool = false
+          id = "network-49"
+          idName = "labs_web_1b (subnet-52afc137)"
+        }
+        primaryInterface = true
+        showNetworkDhcpLabel = true
+        showNetworkPoolLabel = false
+      }
+    ]
+    plan = { code = "amazon-t2.medium", id = 911 }
+    securityGroups = [ { id = "sg-fe44ed9a" } ]
+    showScale = false
+    templateParameter = null
+    type = "ubuntu"
+    version = "18.04"
+    volumes = [
+      {
+        name = "root"
+        maxIOPS = null
+        maxStorage = 42949672960
+        readonlyName = false
+        rootVolume = true
+        size = 40
+        storageType = 68
+        vId = 129
+        volumeCustomizable = true
+      }
+    ]
+  }
   dateCreated = "2024-02-26T16:05:35.654Z"
   labels = [ "export" ]
   lastUpdated = "2024-05-20T11:37:42.359Z"
