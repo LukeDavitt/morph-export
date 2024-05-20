@@ -3,7 +3,7 @@ resource "catalog-item-type" "test-import-export" {
   name = "AA - Testing Import/Export"
   uuid = "abe1ce16-cc92-44ca-b6a3-9fbac94659de"
   dateCreated = "2024-05-20T11:02:31.871Z"
-  labels = [ { name = "export" } ]
+  labels = [ "export" ]
   lastUpdated = "2024-05-20T11:02:31.871Z"
   refType = "OperationalWorkflow"
   visibility = "public"
