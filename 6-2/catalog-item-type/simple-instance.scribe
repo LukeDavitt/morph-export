@@ -3,7 +3,7 @@ resource "catalog-item-type" "simple-instance" {
   name = "simple instance"
   uuid = "2c937e2e-d5c0-4f51-b8f9-bab970d58f73"
   dateCreated = "2024-02-26T16:05:35.654Z"
-  labels = [ { name = "export" } ]
+  labels = [ "export" ]
   lastUpdated = "2024-05-20T11:37:42.359Z"
   refType = "InstanceType"
   visibility = "public"
