@@ -1,0 +1,5 @@
+resource "task-set-task" "2ee4429c-1f97-4561-8bca-a35045463bb6" {
+  uuid = "2ee4429c-1f97-4561-8bca-a35045463bb6"
+  task = { code = "operation-test" }
+  taskPhase = "operation"
+}

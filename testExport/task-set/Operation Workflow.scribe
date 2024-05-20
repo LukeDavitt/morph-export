@@ -1,0 +1,10 @@
+resource "task-set" "Operation Workflow" {
+  name = "Operation Workflow"
+  uuid = "4abb452b-1a9c-4590-b6a6-65d7c8395f9d"
+  dateCreated = "2024-05-20T17:27:42.665Z"
+  labels = [ "export" ]
+  lastUpdated = "2024-05-20T17:27:51.726Z"
+  taskSetTasks = [ { uuid = "2ee4429c-1f97-4561-8bca-a35045463bb6" } ]
+  taskSetType = "operation"
+  visibility = "public"
+}
