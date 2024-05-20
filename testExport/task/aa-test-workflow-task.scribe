@@ -1,0 +1,17 @@
+resource "task" "aa-test-workflow-task" {
+  name = "aa-test-workflow-task"
+  uuid = "d3d7b8df-03ab-4cdf-b81a-b9b959fec7e7"
+  dateCreated = "2024-05-20T20:41:17.082Z"
+  executeTarget = "resource"
+  labels = [ "export" ]
+  lastUpdated = "2024-05-20T20:42:32.255Z"
+  options = [
+    {
+      content = { uuid = "57c3a19d-4d23-4940-b1bf-40d4ced9fb63" }
+      optionType = { code = "script" }
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
+  ]
+  taskType = { code = "script" }
+  visibility = "public"
+}
