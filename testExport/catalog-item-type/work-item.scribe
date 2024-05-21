@@ -1,0 +1,15 @@
+resource "catalog-item-type" "work-item" {
+  code = "work-item"
+  name = "aa-workflow-item"
+  uuid = "6311772b-3b8c-4e72-ac99-a33c3a81b9ea"
+  config = {
+    config = ""
+    context = ""
+    workflowUuid = "334b71e6-fa55-40d1-a42a-1543d1758cc3"
+  }
+  dateCreated = "2024-05-21T11:44:41.974Z"
+  labels = [ "export" ]
+  lastUpdated = "2024-05-21T11:44:41.974Z"
+  refType = "OperationalWorkflow"
+  visibility = "public"
+}
