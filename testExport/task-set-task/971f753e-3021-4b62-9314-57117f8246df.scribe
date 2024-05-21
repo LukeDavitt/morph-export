@@ -1,5 +1,0 @@
-resource "task-set-task" "971f753e-3021-4b62-9314-57117f8246df" {
-  uuid = "971f753e-3021-4b62-9314-57117f8246df"
-  task = { code = "testes-workflow" }
-  taskPhase = "operation"
-}
