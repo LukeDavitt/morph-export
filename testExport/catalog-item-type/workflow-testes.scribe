@@ -3,13 +3,19 @@ resource "catalog-item-type" "workflow-testes" {
   name = "testes workflow"
   uuid = "0187c124-e831-4ec2-9f44-6422208f9c2b"
   config = {
-    config = ""
+    config = <<EOFSCRIBE
+{
+  "config": {
+    "blippy":"bloopy"
+  }
+}
+EOFSCRIBE
     context = ""
     workflowUuid = "48a17b10-5e0c-4338-80b8-967b275a3447"
   }
-  dateCreated = "2024-05-20T20:53:43.609Z"
+  dateCreated = "2024-05-20T20:56:59.884Z"
   labels = [ "export" ]
-  lastUpdated = "2024-05-20T20:53:43.609Z"
+  lastUpdated = "2024-05-21T10:27:14.918Z"
   refType = "OperationalWorkflow"
   visibility = "public"
 }
