@@ -7,11 +7,11 @@ resource "task" "worky-testy" {
   labels = [ "export" ]
   lastUpdated = "2024-05-21T11:43:39.168Z"
   options = [
+    { optionType = { code = "shell.sudo" }, value = "on" },
     {
       content = { uuid = "62897731-3831-46e9-abc3-e0768fceaa03" }
       optionType = { code = "script" }
-    },
-    { optionType = { code = "shell.sudo" }, value = "on" }
+    }
   ]
   taskType = { code = "script" }
   visibility = "public"
