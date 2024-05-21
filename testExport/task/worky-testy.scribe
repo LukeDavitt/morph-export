@@ -2,10 +2,10 @@ resource "task" "worky-testy" {
   code = "worky-testy"
   name = "aa-workflow-test"
   uuid = "d04d576a-7242-48dc-b3a7-b91a5af09160"
-  dateCreated = "2024-05-21T11:43:39.143Z"
+  dateCreated = "2024-05-21T12:02:56.900Z"
   executeTarget = "resource"
   labels = [ "export" ]
-  lastUpdated = "2024-05-21T11:43:39.168Z"
+  lastUpdated = "2024-05-21T12:02:56.900Z"
   options = [
     { optionType = { code = "shell.sudo" }, value = "on" },
     {
