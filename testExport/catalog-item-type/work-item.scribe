@@ -9,13 +9,14 @@ resource "catalog-item-type" "work-item" {
     "blip":"bloop"
   }
 }
+
 EOFSCRIBE
-    context = ""
+    context = "instance"
     workflowUuid = "334b71e6-fa55-40d1-a42a-1543d1758cc3"
   }
-  dateCreated = "2024-05-21T12:02:56.908Z"
+  dateCreated = "2024-05-21T12:19:31.151Z"
   labels = [ "export" ]
-  lastUpdated = "2024-05-21T12:14:57.899Z"
+  lastUpdated = "2024-05-21T12:33:21.524Z"
   refType = "OperationalWorkflow"
   visibility = "public"
 }
