@@ -1,0 +1,5 @@
+resource "task-set-task" "44a17971-fd3d-404c-8053-6eed23adc895" {
+  uuid = "44a17971-fd3d-404c-8053-6eed23adc895"
+  task = { code = "worky-testy" }
+  taskPhase = "operation"
+}

@@ -1,0 +1,10 @@
+resource "task-set" "aa-oper-workflow" {
+  name = "aa-oper-workflow"
+  uuid = "334b71e6-fa55-40d1-a42a-1543d1758cc3"
+  dateCreated = "2024-05-21T11:44:02.121Z"
+  labels = [ "export" ]
+  lastUpdated = "2024-05-21T11:44:02.137Z"
+  taskSetTasks = [ { uuid = "44a17971-fd3d-404c-8053-6eed23adc895" } ]
+  taskSetType = "operation"
+  visibility = "public"
+}

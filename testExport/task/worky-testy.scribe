@@ -1,0 +1,18 @@
+resource "task" "worky-testy" {
+  code = "worky-testy"
+  name = "aa-workflow-test"
+  uuid = "d04d576a-7242-48dc-b3a7-b91a5af09160"
+  dateCreated = "2024-05-21T11:43:39.143Z"
+  executeTarget = "resource"
+  labels = [ "export" ]
+  lastUpdated = "2024-05-21T11:43:39.168Z"
+  options = [
+    {
+      content = { uuid = "62897731-3831-46e9-abc3-e0768fceaa03" }
+      optionType = { code = "script" }
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
+  ]
+  taskType = { code = "script" }
+  visibility = "public"
+}
