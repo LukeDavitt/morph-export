@@ -10,13 +10,14 @@ resource "catalog-item-type" "work-item" {
   }
 }
 
+
 EOFSCRIBE
     context = "instance"
     workflowUuid = "334b71e6-fa55-40d1-a42a-1543d1758cc3"
   }
-  dateCreated = "2024-05-21T12:19:31.151Z"
+  dateCreated = "2024-05-21T12:41:19.520Z"
   labels = [ "export" ]
-  lastUpdated = "2024-05-21T12:33:21.524Z"
+  lastUpdated = "2024-05-21T12:41:19.544Z"
   refType = "OperationalWorkflow"
   visibility = "public"
 }
