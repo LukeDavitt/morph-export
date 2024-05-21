@@ -5,13 +5,23 @@ resource "task" "worky-testy" {
   dateCreated = "2024-05-21T12:02:56.900Z"
   executeTarget = "resource"
   labels = [ "export" ]
-  lastUpdated = "2024-05-21T12:02:56.900Z"
+  lastUpdated = "2024-05-21T12:19:31.158Z"
   options = [
-    { optionType = { code = "shell.sudo" }, value = "on" },
     {
       content = { uuid = "62897731-3831-46e9-abc3-e0768fceaa03" }
       optionType = { code = "script" }
-    }
+    },
+    {
+      content = { uuid = "62897731-3831-46e9-abc3-e0768fceaa03" }
+      optionType = { code = "script" }
+    },
+    {
+      content = { uuid = "62897731-3831-46e9-abc3-e0768fceaa03" }
+      optionType = { code = "script" }
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" },
+    { optionType = { code = "shell.sudo" }, value = "on" },
+    { optionType = { code = "shell.sudo" }, value = "on" }
   ]
   taskType = { code = "script" }
   visibility = "public"
