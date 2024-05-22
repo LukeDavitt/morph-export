@@ -1,0 +1,16 @@
+resource "option-type-form" "testes-form" {
+  code = "testes-form"
+  name = "Testes Form"
+  uuid = "de2a7224-da65-46cc-a8d4-1040e9c7c510"
+  config = {
+    enableVar = ""
+    form = ""
+    formField = ""
+    formOptions = ""
+    formType = ""
+  }
+  options = [
+    { code = "d0af05b2-3a3e-48e8-90d2-a7b30bb9b38f" },
+    { code = "72b76793-b0a1-44cb-82a1-b766da36e31a" }
+  ]
+}
