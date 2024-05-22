@@ -1,9 +1,0 @@
-resource "task-set" "ld-stage-workflow" {
-  name = "ld-stage-workflow"
-  uuid = "d213f15c-f7c9-49f8-b50f-5e5a9fb9d947"
-  dateCreated = "2024-05-22T17:37:43.000Z"
-  labels = [ "luke-export" ]
-  lastUpdated = "2024-05-22T17:38:00.000Z"
-  taskSetTasks = [ { uuid = "ba53af80-864f-40bc-bcc9-91ded6fcd55b" } ]
-  taskSetType = "operation"
-}
