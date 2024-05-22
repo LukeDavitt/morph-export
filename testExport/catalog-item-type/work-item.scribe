@@ -13,14 +13,11 @@ resource "catalog-item-type" "work-item" {
 
 EOFSCRIBE
     context = "instance"
-    formUuid = "de2a7224-da65-46cc-a8d4-1040e9c7c510"
     workflowUuid = "334b71e6-fa55-40d1-a42a-1543d1758cc3"
   }
   dateCreated = "2024-05-21T12:41:19.520Z"
-  form = { code = "testes-form" }
-  formType = "form"
   labels = [ "export" ]
-  lastUpdated = "2024-05-22T14:41:52.490Z"
+  lastUpdated = "2024-05-22T16:38:57.611Z"
   refType = "OperationalWorkflow"
   visibility = "public"
 }
