@@ -1,0 +1,5 @@
+resource "task-set-task" "ba53af80-864f-40bc-bcc9-91ded6fcd55b" {
+  uuid = "ba53af80-864f-40bc-bcc9-91ded6fcd55b"
+  task = { code = "ld-export-test" }
+  taskPhase = "operation"
+}
