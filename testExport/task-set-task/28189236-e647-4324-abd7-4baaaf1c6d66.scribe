@@ -1,5 +1,0 @@
-resource "task-set-task" "28189236-e647-4324-abd7-4baaaf1c6d66" {
-  uuid = "28189236-e647-4324-abd7-4baaaf1c6d66"
-  task = { code = "aa-wonky" }
-  taskPhase = "operation"
-}
