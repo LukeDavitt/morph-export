@@ -1,0 +1,19 @@
+resource "catalog-item-type" "aaa-ld-test-export" {
+  code = "aaa-ld-test-export"
+  name = "aaa-ld-test-export"
+  uuid = "5c331ea6-6dea-4be8-87b4-c234e636580a"
+  config = {
+    config = <<EOFSCRIBE
+{
+  "config":"tests"
+}
+EOFSCRIBE
+    context = "server"
+    workflowUuid = "3def997e-734b-439a-a318-bf72a170ac51"
+  }
+  dateCreated = "2024-05-22T18:00:52.000Z"
+  labels = [ "luke-export" ]
+  lastUpdated = "2024-05-22T18:00:52.000Z"
+  refType = "OperationalWorkflow"
+  visibility = "public"
+}
