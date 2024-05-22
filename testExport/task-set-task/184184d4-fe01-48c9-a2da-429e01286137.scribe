@@ -1,0 +1,5 @@
+resource "task-set-task" "184184d4-fe01-48c9-a2da-429e01286137" {
+  uuid = "184184d4-fe01-48c9-a2da-429e01286137"
+  task = { code = "luke-export-task" }
+  taskPhase = "operation"
+}
