@@ -1,0 +1,9 @@
+resource "file-content" "45e2268b-4da0-4a99-bdbd-4e8b58201fb5" {
+  uuid = "45e2268b-4da0-4a99-bdbd-4e8b58201fb5"
+  content = <<EOFSCRIBE
+touch /tmp/testes
+echo "thingy" >> /tmp/testes
+EOFSCRIBE
+  dateCreated = "2024-05-21T13:20:12.000Z"
+  lastUpdated = "2024-05-21T13:20:12.000Z"
+}

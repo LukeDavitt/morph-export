@@ -1,0 +1,10 @@
+resource "task-set" "luke-test-workflow" {
+  name = "luke-test-workflow"
+  uuid = "3def997e-734b-439a-a318-bf72a170ac51"
+  dateCreated = "2024-05-21T13:20:38.000Z"
+  labels = [ "luke-export" ]
+  lastUpdated = "2024-05-21T13:20:38.000Z"
+  taskSetTasks = [ { uuid = "184184d4-fe01-48c9-a2da-429e01286137" } ]
+  taskSetType = "operation"
+  visibility = "public"
+}
