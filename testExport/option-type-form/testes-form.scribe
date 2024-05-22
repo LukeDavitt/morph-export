@@ -1,0 +1,39 @@
+resource "option-type-form" "testes-form" {
+  code = "testes-form"
+  name = "Testes Form"
+  uuid = "de2a7224-da65-46cc-a8d4-1040e9c7c510"
+  config = {
+    enableVar = ""
+    form = ""
+    formField = ""
+    formOptions = ""
+    formType = ""
+  }
+  options = [
+    {
+      code = "d0af05b2-3a3e-48e8-90d2-a7b30bb9b38f"
+      name = "d0af05b2-3a3e-48e8-90d2-a7b30bb9b38f"
+      uuid = "09474047-82bc-4de7-8403-cbe841df63f4"
+      config = { addon = "", addonPosition = "" }
+      fieldContext = "config.customOptions"
+      fieldLabel = "testes1"
+      fieldName = "testes1"
+      formField = true
+      refCode = "d0af05b2-3a3e-48e8-90d2-a7b30bb9b38f"
+    },
+    {
+      code = "72b76793-b0a1-44cb-82a1-b766da36e31a"
+      name = "72b76793-b0a1-44cb-82a1-b766da36e31a"
+      uuid = "b0180cfc-0e56-41e0-9d5d-c715e3aba19b"
+      config = { addon = "", addonPosition = "" }
+      defaultValue = "false"
+      displayOrder = 1
+      fieldContext = "config.customOptions"
+      fieldLabel = "checkers"
+      fieldName = "testes2"
+      formField = true
+      refCode = "72b76793-b0a1-44cb-82a1-b766da36e31a"
+      type = "checkbox"
+    }
+  ]
+}
