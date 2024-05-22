@@ -1,9 +1,0 @@
-resource "file-content" "a902f1d3-eb7d-414d-ae8c-5c72d2b08a47" {
-  uuid = "a902f1d3-eb7d-414d-ae8c-5c72d2b08a47"
-  content = <<EOFSCRIBE
-touch /tmp/testes
-echo "thing" >> /tmp/testes
-EOFSCRIBE
-  dateCreated = "2024-05-22T17:02:15.516Z"
-  lastUpdated = "2024-05-22T17:02:15.516Z"
-}
