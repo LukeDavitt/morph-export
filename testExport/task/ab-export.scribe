@@ -1,0 +1,17 @@
+resource "task" "ab-export" {
+  code = "ab-export"
+  name = "aa-export"
+  uuid = "4341b711-6200-4efa-bfba-cbf9f3c7803f"
+  dateCreated = "2024-05-23T11:24:25.976Z"
+  executeTarget = "resource"
+  labels = [ "luke-export" ]
+  lastUpdated = "2024-05-23T11:24:25.976Z"
+  options = [
+    {
+      content = { uuid = "8bc715f9-cb67-4159-8663-473751be69f7" }
+      optionType = { code = "script" }
+    }
+  ]
+  taskType = { code = "script" }
+  visibility = "public"
+}

@@ -1,0 +1,10 @@
+resource "task-set" "aa-workflow" {
+  name = "aa-workflow"
+  uuid = "5d5b76b5-2c7a-4262-b413-86404dc8a2b2"
+  dateCreated = "2024-05-23T11:24:25.980Z"
+  labels = [ "luke-export" ]
+  lastUpdated = "2024-05-23T11:24:25.980Z"
+  taskSetTasks = [ { uuid = "d26c98ba-8b0e-44ab-a103-f4fde21fcbf5" } ]
+  taskSetType = "operation"
+  visibility = "public"
+}

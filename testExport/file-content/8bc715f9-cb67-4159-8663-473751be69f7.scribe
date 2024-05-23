@@ -1,0 +1,6 @@
+resource "file-content" "8bc715f9-cb67-4159-8663-473751be69f7" {
+  uuid = "8bc715f9-cb67-4159-8663-473751be69f7"
+  content = "shabas doo"
+  dateCreated = "2024-05-23T11:24:25.971Z"
+  lastUpdated = "2024-05-23T11:24:25.971Z"
+}
