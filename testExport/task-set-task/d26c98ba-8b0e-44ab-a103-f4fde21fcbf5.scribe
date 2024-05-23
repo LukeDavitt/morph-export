@@ -1,5 +1,0 @@
-resource "task-set-task" "d26c98ba-8b0e-44ab-a103-f4fde21fcbf5" {
-  uuid = "d26c98ba-8b0e-44ab-a103-f4fde21fcbf5"
-  task = { code = "ab-export" }
-  taskPhase = "operation"
-}
