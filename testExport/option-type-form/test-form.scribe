@@ -1,0 +1,24 @@
+resource "option-type-form" "test-form" {
+  code = "test-form"
+  name = "TestForm"
+  uuid = "2b898680-1aae-477c-8e27-146587e93b38"
+  config = {
+    enableVar = ""
+    form = ""
+    formField = ""
+    formOptions = ""
+    formType = ""
+  }
+  options = [
+    {
+      code = "bafbf558-2a9f-4bb9-a56c-5695439a1c2b"
+      name = "bafbf558-2a9f-4bb9-a56c-5695439a1c2b"
+      uuid = "3d66c782-6e1e-43d7-b5ec-1ccca0ca7470"
+      config = { addon = "", addonPosition = "" }
+      fieldContext = "config.customOptions"
+      fieldLabel = "Testes"
+      fieldName = "testing"
+      formField = true
+    }
+  ]
+}
